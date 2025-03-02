@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .main {
+    display: flex;
+    flex: 1;
+  }
+  
+  .sidebar {
+    width: 300px;
+    padding: 1rem;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+  }
+  
+  .columnContainer {
+    margin-top: 1rem;
+  }
+  
+  .checkboxContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }

@@ -1,0 +1,28 @@
+{
+  "name": "nextjs-mysql-app",
+  "version": "1.0.0",
+  "description": "A Next.js application to display information from a MySQL database.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.9",
+    "mysql2": "^2.3.3",
+    "next": "latest",
+    "postcss": "^8.5.3",
+    "react": "latest",
+    "react-dom": "latest",
+    "sweetalert2": "^11.17.2",
+    "tailwindcss": "^4.0.9"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-next": "latest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
